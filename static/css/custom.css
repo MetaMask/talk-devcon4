@@ -18,3 +18,13 @@ p.text-intro.main{
     max-width: 500px;
     margin: auto;
 }
+
+.privacy {
+  width: 50%;
+}
+
+.scaling {
+  max-height: 40%;
+}
+
+
