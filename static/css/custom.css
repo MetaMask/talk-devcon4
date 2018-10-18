@@ -1,0 +1,20 @@
+h1 object{
+    max-height: 540px;
+}
+
+p.text-intro.main{
+    font-size: 3.8rem;
+    line-height: 4rem;
+    width: 55%;
+    margin: auto;
+}
+
+.flexblock.features li span sup {
+    font-size: 6rem;
+}
+
+.phones {
+    max-height: 600px;
+    max-width: 500px;
+    margin: auto;
+}
