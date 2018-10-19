@@ -102,7 +102,7 @@
           <!--.wrap = container (width: 90%) -->
           <div class="wrap aligncenter">
             <h1>
-              <object data="static/images/logo-wordmark-stacked.svg" type="image/svg+xml"></object>
+              <img class="logo" src="static/images/logo-wordmark-stacked.svg" />
             </h1>
             <p class="text-intro main">
               Challenges for Blockchain Browsers &<br />A MetaMask Roadmap
@@ -134,7 +134,7 @@
                       <li>
                           <div>
                             <h2>
-                              <span><sup>50,000+</sup></span>
+                              <span><sup>50K+</sup></span>
                               new lines of code
                             </h2>
                           </div>
@@ -151,7 +151,7 @@
                         <div>
                         <h2>
                           <span><sup>1400+</sup></span>
-                          Github issues closed
+                          Issues closed
                         </h2>
                       </div>
                       </li>
@@ -504,18 +504,91 @@
               </section>
 
               <section class="aligncenter">
-                  <div class="wrap">
+                  <div class="wrap size-50">
                     <h2>Sync with your extension</h2>
+                    <ul class="flexblock features">
+
+                      <li>
+                        <div>
+                          <h2>
+                              <svg class="fa-qrcode">
+                                  <use xlink:href="#fa-qrcode"></use>
+                              </svg>
+                              UX FRIENDLY
+                          </h2>
+                          Simply scan a QR Code and that's it!
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <h2>
+                              <svg class="fa-bolt">
+                                  <use xlink:href="#fa-bolt"></use>
+                              </svg>
+                              LIGHTING FAST
+                          </h2>
+                          The whole process takes about 30 seconds!
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                            <h2>
+                                <svg class="fa-user">
+                                    <use xlink:href="#fa-user"></use>
+                                </svg>
+                                ACCOUNTS
+                            </h2>
+                            All the accounts generated with your seed phrase are synced
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                            <h2>
+                                <svg class="fa-list-ol">
+                                    <use xlink:href="#fa-list-ol"></use>
+                                </svg>
+                                TRANSACTION HISTORY
+                            </h2>
+                            All your transaction history is also synced automatically
+                        </div>
+                      </li>
+                    </ul>
                   </div>
                   <!-- .end .wrap -->
                 </section>
-
-                <section class="aligncenter">
-                    <div class="wrap">
-                      <h2>ENS => IPFS support</h2>
+                <section class="fullscreen">
+                    <div class="embed">
+                      <video autoplay controls>
+                        <source src="static/videos/account-sync.mp4" type="video/mp4">
+                      </video>
                     </div>
-                    <!-- .end .wrap -->
+                    <!-- .end .embed -->
                   </section>
+                  <section>
+                      <!--.wrap = container (width: 90%) -->
+                      <div class="wrap size-50 aligncenter">
+                        <h2>ENS -> IPFS SUPPORT</h2>
+                        <p class="text-intro">(DECENTRALIZATION!)</p>
+                        <div class="wrap size-50 ens-ipfs">
+                          <img src='../static/images/ens.png' class='ens' />
+                          <img src='../static/images/ipfs.svg' class='ipfs' />
+                        </div>
+                        <div class="bg-white shadow">
+                          <ul class="flexblock reasons">
+                            <li>
+                              <h2>Access websites hosted in IPFS</h2>
+                              <p>Just like a normal website, but decentralized!</p>
+                            </li>
+                            <li>
+                              <h2>Choose your own IPFS gateway</h2>
+                              <p>We default to infura but you can set your own</p>
+                            </li>
+                          </ul>
+                        </div>
+                        <!-- .end .bg-white shadow -->
+                      </div>
+                      <!-- .end .wrap -->
+                    </section>
 
                   <section class="aligncenter">
                       <div class="wrap">

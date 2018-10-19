@@ -1,4 +1,4 @@
-h1 object{
+h1 img.logo{
     max-height: 540px;
 }
 
@@ -27,3 +27,9 @@ p.text-intro.main{
   max-height: 40%;
 }
 
+.ens-ipfs img{
+    width: 35%;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
