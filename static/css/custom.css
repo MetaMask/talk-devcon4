@@ -53,3 +53,7 @@ p.text-intro.main{
 h2 {
   font-weight: bold;
 }
+
+.numbers {
+  text-align: left;
+}
