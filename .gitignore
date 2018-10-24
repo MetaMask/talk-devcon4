@@ -1,0 +1,9 @@
+.idea/
+*.iml
+*.iws
+*.eml
+.DS_Store
+.svn
+log/*.log
+tmp/**
+
