@@ -1,5 +1,5 @@
 h1 img.logo{
-    max-height: 540px;
+    max-height: 500px;
 }
 
 p.text-intro.main{
@@ -56,4 +56,15 @@ h2 {
 
 .numbers {
   text-align: left;
+}
+
+.some-context{
+  width: 490px;
+}
+.some-context h2{
+  text-align: center;
+}
+
+.meme {
+  width: 600px;
 }
