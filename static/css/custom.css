@@ -97,7 +97,7 @@ h2 {
 }
 
 .avatars h3{
-  font-size: 3rem;
+  font-size: 2.8rem;
   text-align: center;
 }
 
@@ -111,5 +111,5 @@ h2 {
 }
 
 .users {
-  width: 200px;
+  width: 150px;
 }
