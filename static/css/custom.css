@@ -68,3 +68,33 @@ h2 {
 .meme {
   width: 600px;
 }
+
+.bg-apple h2{
+  font-weight: lighter;
+  font-size: 5.8rem;
+}
+
+.ux-avatar{
+  margin-top: 50px;
+  border-radius: 150px;
+  width: 150px !important;
+  height: 150px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.avatars {
+  margin-bottom: 30px;
+}
+.reasons.know li h2{
+  text-align: left;
+  vertical-align: center;
+}
+
+.tinder{
+
+}
+
+.users {
+  width: 200px;
+}
