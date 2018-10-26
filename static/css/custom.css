@@ -118,10 +118,11 @@ h2 {
   vertical-align: center;
 }
 
-.tinder{
-
-}
 
 .users {
   width: 150px;
+}
+
+.new-flow-player {
+  max-height: 700px;
 }
