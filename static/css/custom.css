@@ -1,5 +1,5 @@
 h1 img.logo{
-    max-height: 500px;
+    max-height: 450px;
 }
 
 p.text-intro.main{
@@ -7,6 +7,18 @@ p.text-intro.main{
     line-height: 4rem;
     width: 55%;
     margin: auto;
+}
+
+.work {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+}
+
+h2.transition {
+  font-size: 7rem;
+  font-weight: 500;
+  display: inline;
 }
 
 .flexblock.features li span sup {
@@ -67,4 +79,50 @@ h2 {
 
 .meme {
   width: 600px;
+}
+
+.bg-apple h2{
+  font-weight: lighter;
+  font-size: 5.8rem;
+}
+
+.ux-avatar{
+  margin-top: 50px;
+  border-radius: 150px;
+  width: 150px !important;
+  height: 150px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.avatars {
+  margin-bottom: 30px;
+}
+
+.avatars .content-right,
+.avatars .content-left{
+  text-align: center;
+}
+
+.avatars img{
+  text-align: center;
+}
+
+.avatars h3{
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.reasons.know li h2{
+  text-align: left;
+  vertical-align: center;
+}
+
+
+.users {
+  width: 150px;
+}
+
+.new-flow-player {
+  max-height: 700px;
 }
