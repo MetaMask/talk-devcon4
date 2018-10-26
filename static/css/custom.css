@@ -9,6 +9,18 @@ p.text-intro.main{
     margin: auto;
 }
 
+.work {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+}
+
+h2.transition {
+  font-size: 7rem;
+  font-weight: 500;
+  display: inline;
+}
+
 .flexblock.features li span sup {
     font-size: 6rem;
 }
