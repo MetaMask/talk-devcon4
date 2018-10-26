@@ -86,6 +86,21 @@ h2 {
 .avatars {
   margin-bottom: 30px;
 }
+
+.avatars .content-right,
+.avatars .content-left{
+  text-align: center;
+}
+
+.avatars img{
+  text-align: center;
+}
+
+.avatars h3{
+  font-size: 3rem;
+  text-align: center;
+}
+
 .reasons.know li h2{
   text-align: left;
   vertical-align: center;
