@@ -154,3 +154,15 @@ h2 {
 .research {
   margin-top: 30px;
 }
+
+.ens-ipfs-video {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  object-fit: contain !important;
+}
+
+.fullscreen > .embed.ens-ipfs {
+  margin: auto;
+  max-width: 400px;
+}
