@@ -1,22 +1,22 @@
 h1 img.logo{
     max-height: 450px;
-    margin-top: -100px;
+    margin-top: -50px;
 }
 
 .autors {
-  margin-top: 140px;
+  margin-top: 80px;
   margin-bottom: 0px;
 }
 
 .autors a{
-  font-size: 2.5rem;
-  font-weight: normal;
+  font-size: 3rem;
+  font-weight: 300;
   color: black;
 }
 
 p.text-intro.main{
-    font-size: 3.8rem;
-    line-height: 4rem;
+    font-size: 4rem;
+    line-height: 5rem;
     width: 55%;
     margin: auto;
 }
