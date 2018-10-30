@@ -1,3 +1,17 @@
+h1, h2 {
+  font-family: Roboto Mono;
+}
+
+h2.transition {
+  font-size: 10rem !important;
+  line-height: 11rem !important;
+}
+
+h2 {
+  font-size: 5.8rem;
+  line-height: 10.4rem;
+}
+
 h1 img.logo{
     max-height: 450px;
     margin-top: -50px;
@@ -6,11 +20,12 @@ h1 img.logo{
 .authors {
   margin-top: 80px;
   margin-bottom: 0px;
+  font-size: 3.5rem;
+  font-weight: 500;
+  font-family: Roboto Mono;
 }
 
 .authors a{
-  font-size: 2.5rem;
-  font-weight: 300;
   color: black;
 }
 
@@ -38,8 +53,8 @@ h2.transition {
 }
 
 .phones {
-    max-height: 600px;
-    max-width: 500px;
+    max-height: 800px;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -49,6 +64,8 @@ h2.transition {
 
 .scaling {
   max-height: 40%;
+  width: 700px;
+  margin-left: 100px;
 }
 
 .ens-ipfs img{
@@ -64,7 +81,8 @@ h2.transition {
 }
 
 .display-code {
-  font-size:24px;
+  font-size:40px;
+  line-height: 60px !important;
   color:gray;
   line-height: 30px;
 }
@@ -85,6 +103,7 @@ h2 {
 
 .numbers {
   text-align: left;
+  width: 46%;
 }
 
 .some-context{
@@ -95,7 +114,7 @@ h2 {
 }
 
 .meme {
-  width: 600px;
+  width: 830px;
 }
 
 .bg-apple h2{
@@ -145,14 +164,16 @@ h2 {
 }
 
 .wut {
-  height: 500px;
+  height: 800px;
 }
 
 .mom {
   margin-top: 50px;
+  width: 100%;
 }
 .mom li {
-  font-size: 3rem;
+  font-size: 4rem;
+  line-height: 6rem;
   margin-bottom: 20px;
 }
 
@@ -170,4 +191,112 @@ h2 {
 .fullscreen > .embed.ens-ipfs {
   margin: auto;
   max-width: 400px;
+}
+
+.eip-712 .content-left {
+  width: 60%;
+}
+
+.eip-712 .content-right {
+  width: 40%;
+}
+
+
+.eip-1102 .content-left {
+  width: 60%;
+}
+
+.eip-1102 .content-right {
+  width: 40%;
+}
+
+
+.text-intro, [class*='content-'] p {
+  font-size: 3.4rem;
+  line-height: 5rem;
+}
+
+.circle-of-trust {
+  margin-top: -50px !important;
+}
+
+.hardware {
+  height: 100% !important;
+}
+
+.signedTypeData {
+  height: 100% !important;
+  width: 80% !important;
+}
+
+.eip747 {
+  margin-left: 100px;
+  width: 37% !important;
+}
+
+img.mustekala {
+  width: 80%;
+}
+
+ul {
+  font-size: 1.6em;
+}
+
+img.network {
+  width: 60%;
+  margin-left: 100px;
+}
+
+.reasons.know li h2{
+  font-size: 1em;
+}
+
+.tinder {
+  height: 900px;
+}
+
+.onboarding {
+  width: 90%;
+}
+
+.onboarding-flow {
+  width: 100%;
+  height: auto !important;
+}
+
+video.ens-ipfs-video {
+  height: 95% !important;
+  margin-top: 10%;
+}
+
+.swag {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.swag img{
+  height: 300px;
+}
+
+.swag h2{
+  font-size: 1.4em;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.fox-thanks {
+  width: 100px;
+  height: 100px;
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.harold .content-left {
+  width: 60%;
+}
+
+.harold .content-right {
+  width: 40%;
 }
