@@ -58,6 +58,11 @@ h2.transition {
     margin-bottom: 50px;
 }
 
+.safe{
+  width: 80%;
+  height: auto;
+}
+
 .display-code {
   font-size:24px;
   color:gray;
